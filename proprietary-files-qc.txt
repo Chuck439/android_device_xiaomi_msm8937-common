@@ -565,7 +565,6 @@ product/etc/permissions/qcrilhook.xml|ceb890ab3c1645aa0d0044abab1ba58c4097a991
 product/etc/permissions/telephonyservice.xml|a39eefcaf85fb8da60044fdbbcfddd95deb031c8
 product/framework/embmslibrary.jar|00eb5b4144f001423032a88cc1d227b3655db88b
 product/framework/qcrilhook.jar|99c85f639bdf74b6779607f1f29628c33d4edc85
-system_ext/framework/qti-telephony-common.jar|11d6b89b31a9bf65218b3676c2bbd296275b1932
 product/framework/QtiTelephonyServicelibrary.jar|ea30b05eaad3ebee157421b3f31bf8585566b4cd
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|20c011ffc54539161fa7cc05c55c9c5ed3f936b4
 vendor/bin/ATFWD-daemon|4d301417b919c784ae19e4fa6733bfdebacbdfd3
@@ -690,6 +689,9 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|ba5ffc588422c1b0f3ac8135314db2c88d6
 vendor/lib64/vendor.qti.imsrtpservice@2.0.so|6ef5cd72d34c20e82cb0e58681a4aae9b0dac99a
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so|9eb713ce4ffd38006bd0ca794a7e4152b33b3ded
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so|6dbe703a5a8389c342008c950aaec7a3a260a055
+
+# Radio - from LA.UM.9.6.2.r1-03300-89xx.0
+system_ext/framework/qti-telephony-common.jar|f299a07201e2ce4cd65d28faa3b9730746e201ae
 
 # Thermal - from LA.UM.9.6.2.r1-04200-89xx.0
 vendor/bin/thermal-engine|9e48fd5d3bf6414db4d844b421b45f6b6a2f17d4
