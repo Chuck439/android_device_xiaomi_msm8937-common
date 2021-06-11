@@ -219,21 +219,24 @@ vendor/lib/libdpmqmihal.so|f618b7d9387d35b757377f47452f503d8b405ed9
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
 vendor/lib64/libdpmqmihal.so|25d74c0e867f023b71a7c599ab6d213c7de2725d
 
-# DRM - from daisy
-vendor/bin/qseecomd|98e59e53f6bf2e585120f07f93d1265acfa80e7b
-vendor/lib/libQSEEComAPI.so|199f80aa6b940204fe1119aa196a3f939a2d499e
-vendor/lib64/libGPreqcancel.so|a5f7f9679fdd081c9b9ea8f5c4a3714761ca997c
-vendor/lib64/libGPreqcancel_svc.so|82ee3c978563896569468fdc006455b3f28f35e9
-vendor/lib64/libQSEEComAPI.so|597926ec6d1fca95a76f65f52659920c441d84c2
-vendor/lib64/libSecureUILib.so|b48ed2e7cdb41d08c238a1fd171d9e7f8032516a
-vendor/lib64/libStDrvInt.so|2947474aad631d5345283e57a38003b6373b2d11
-vendor/lib64/libdrmfs.so|bcae118bb9d2b07a2dae7fdcb30196293217e9ae
-vendor/lib64/libdrmtime.so|a8b04641f437e6235b3d708fe9ba486526f91ab2
-vendor/lib64/libqisl.so|491ac949ab488299c7a1ae4fe8257ec0a6f994b1
-vendor/lib64/librpmb.so|b74dce3afd27fee2caf7604032dad696211dd050
-vendor/lib64/libsecureui.so|dc3ccde15c3bdbc14da9fdc63dbf30973c5fe1b1
-vendor/lib64/libsecureui_svcsock.so|a7fdcd8001d4cdd9a30eb1ccc129324c398cc203
-vendor/lib64/libssd.so|33d717f793c2579e3bd17b5ce6534cb68c12887d
+# DRM - from LA.UM.9.6.2.r1-04100-89xx.0
+vendor/bin/qseecomd|80c97092e609e00057e4037da490c54b09205be0
+vendor/lib/libQSEEComAPI.so|90a357a7068c37d0dd1b6428981b27243f6f0c28
+vendor/lib64/libdrmfs.so|071f9238bfa70ebd9d28748a21f6bb3297057d49
+vendor/lib64/libdrmtime.so|2d53dd4f3d0ee920263a89f6e6d4acad837ca672
+vendor/lib64/libGPreqcancel.so|d3278679f75371f7d6813f69ee04cda66e46b445
+vendor/lib64/libGPreqcancel_svc.so|817fced1daa7913b363fdbebf2e0587e1f34b8eb
+vendor/lib64/libcpion.so|388b27050e97bdfdee0d98428f223611b761f252
+vendor/lib64/libhdcpsrm.so|85c4b0f714b3946d94d32811d4c85ad2dd244d65
+vendor/lib64/liboemcrypto.so|2cd64ac318250f46e0c7671ff6fbee3c01c8f1fd
+vendor/lib64/libqisl.so|e9c402aed643ee094daaf495f1a3a1f29542d602
+vendor/lib64/libQSEEComAPI.so|5d10cbc93360fbb8fce662e2e7c787441f978b26
+vendor/lib64/librpmb.so|9a9e747080c33f14bc0457e7d65e3c09fa5bff87
+vendor/lib64/libSecureUILib.so|f490abdef04ca0806ebcc9efde7acab628294178
+vendor/lib64/libsecureui.so|226528da5a2a2caf64ad6cab536b370f974333b8
+vendor/lib64/libsecureui_svcsock.so|2232f56927964f10d41868919d94711930d50ed0
+vendor/lib64/libssd.so|9c7850a06f6caf5b3dc6ac1269a5b0be9f4fcde7
+vendor/lib64/libStDrvInt.so|add517206707a8bd7f116b6b1554a16c51fe6668
 
 # Gatekeeper - from daisy
 vendor/lib/hw/gatekeeper.msm8937.so|cd04140788659ae07a50081baeb3eb2e42f37028
