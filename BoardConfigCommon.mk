@@ -39,16 +39,16 @@ endif
 
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000
+BOARD_KERNEL_CMDLINE += legacy_omx
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci
 BOARD_KERNEL_CMDLINE += androidboot.usbconfigfs=true
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
+KERNEL_LD := LD=ld.lld
 TARGET_KERNEL_VERSION := 4.9
 TARGET_KERNEL_CLANG_COMPILE := true
-ifneq ($(wildcard vendor/qcom/proprietary/llvm-arm-toolchain-ship/10.0),)
-TARGET_KERNEL_CLANG_PATH := $(PWD)/vendor/qcom/proprietary/llvm-arm-toolchain-ship/10.0
-endif
+TARGET_KERNEL_CLANG_VERSION := proton
 
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
