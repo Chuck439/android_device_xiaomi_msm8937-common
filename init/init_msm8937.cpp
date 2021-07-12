@@ -192,9 +192,8 @@ void vendor_load_properties()
 
     check_device();
 
-    build_description_override("redfin-user 11 RQ3A.210605.005 7349499 release-keys");
-    build_fingerprint_override("google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
-    security_patch_date_override("2021-06-05");
+    build_description_override("redfin-user 11 RQ3A.210705.001 7380771 release-keys");
+    build_fingerprint_override("google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys");
 
     // Report a valid verified boot chain to make Google SafetyNet integrity
     // checks pass. This needs to be done before parsing the kernel cmdline as
