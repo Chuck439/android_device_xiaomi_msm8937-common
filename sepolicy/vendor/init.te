@@ -22,3 +22,7 @@ set_prop(init, vendor_security_patch_level_prop)
 
 # FDT
 allow init fdt_xiaomi:file r_file_perms;
+
+# Smart Charging
+allow init sysfs_battery_supply:file { setattr };
+
