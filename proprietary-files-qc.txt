@@ -783,8 +783,8 @@ system_ext/lib64/lib-imsvtextutils.so|0aadc4666d6e68429fcdd2db4bff1bf48538a155
 system_ext/lib64/lib-imsvtutils.so|f2c271167414db2456ac331b2ec23a728608b92e
 vendor/lib64/lib-imsvtcore.so|cdcf34a515027f75efe8f1db4645dfdc28c31a28
 
-# Thermal - from LA.UM.9.6.2.r1-03600-89xx.0
-vendor/bin/thermal-engine|4939d0127123d988ef4ec2c3eab201541dfe738a
+# Thermal - from LA.UM.9.6.2.r1-04200-89xx.0
+vendor/bin/thermal-engine|9e48fd5d3bf6414db4d844b421b45f6b6a2f17d4
 -vendor/lib/libthermalclient.so|248fda00d69a626ee8e24159b704a6ae95eceb99
 -vendor/lib64/libthermalclient.so|d042cc537de4950837a5b928f6283fb238a9c59c
 
