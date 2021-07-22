@@ -132,7 +132,7 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.media.omx</name>
+        <name>android.hardware.sensors</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
